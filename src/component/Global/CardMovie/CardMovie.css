@@ -1,0 +1,16 @@
+.card-movie {
+    margin: 0px 17px;
+    cursor: pointer;
+}
+.card-movie h3 {
+    font-size: 14px;
+}
+.card-movie .number {
+    font-size: smaller;
+}
+.card-movie .number .rate {
+    color: #e2d703;
+}
+.card-movie h3, .day{
+    color: white;
+}

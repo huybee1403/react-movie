@@ -1,0 +1,17 @@
+.footer .left .thumb img{
+    width: 30%;
+}
+.footer .left .intro span{
+    color: #d4d703;
+}
+.footer .left .intro{
+    margin-top: 22px;
+}
+.footer .right{
+    text-align: end;
+}
+.footer .right a{
+    margin-left: 27px;
+    color: white;
+    font-weight: 600;
+}

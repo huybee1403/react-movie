@@ -1,0 +1,29 @@
+.movies .show-more{
+    padding: 17px 0;
+    width: 11%;
+    position: relative;
+    margin: auto;
+}
+.movies .show-more i{
+    position: absolute;
+    z-index: 1;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-weight: 600;
+}
+.movies .show-more button {
+    width: 100%;
+    border: 2px solid #e2d703;
+    padding: 8px 0;
+    padding-left: 15px;
+    border-radius: 22px;
+    background-color: #e2d703;
+    color: white;
+    font-weight: 600;
+    transition: all 0.7s;
+}
+.movies .show-more button:hover{
+    background-color: transparent;
+}

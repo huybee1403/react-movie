@@ -1,0 +1,40 @@
+.header {
+    padding: 20px 0;
+}
+.header form input {
+    padding-right: 110px;
+}
+.header .navbar-nav {
+    margin-left: 28%;
+}
+.header a {
+    color: white;
+    font-weight: 600;
+    transition: all 0.7s;
+}
+.header a.active {
+    color: #d4d703;
+    transform: scale(0.9);
+}
+.header form .form-control {
+    background-color: #111d1d;
+    color: #e2d703;
+    border: 2px solid #e2d703;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 12px;
+    outline: none;
+}
+.header form .form-control::placeholder {
+    color: #e2d703;
+    font-weight: 600;
+}
+@media (max-width: 992px) {
+    .header .navbar-nav {
+        margin: 17px 0;
+    }
+    .header a.active{
+        color: #d4d703;
+        transform: scale(1);
+    }
+}
